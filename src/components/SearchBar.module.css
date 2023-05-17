@@ -1,0 +1,22 @@
+.form {
+    color: #fff;
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+    width: 800px;
+}
+
+input {
+    line-height: 2rem;
+    min-width: 300px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+
+button {
+    background: lightblue;
+    color: #333;
+    border-radius: 5px;
+    line-height: 1rem;
+}
