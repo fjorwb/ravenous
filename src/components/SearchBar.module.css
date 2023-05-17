@@ -1,13 +1,9 @@
 .form {
-    color: #fff;
-    padding: 2rem 0;
-    margin-bottom: 1rem;
-    width: 800px;
+    width: 100%;
 }
 
 input {
     line-height: 2rem;
-    min-width: 300px;
     border: 1px solid #333;
     border-radius: 5px;
     margin-right: 1rem;

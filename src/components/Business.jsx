@@ -1,13 +1,9 @@
 import React from 'react'
 
-import BusinessList from './BusinessList'
-import SearchBar from './SearchBar'
-
 function Business ({ data }) {
   return (
     <div>
-      <SearchBar />
-      <BusinessList data={data} />
+      <h1>Business</h1>
     </div>
   )
 }

@@ -1,27 +1,28 @@
 .container {
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-  }
-  
-  ul {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      margin-bottom: 1rem;
-  
-  }
-  
-  img {
-    width: 150px;
-    height: 150px;
-    border-radius: 5px;
-    object-fit: cover;
-  }
-  
-  .card {
-    background: yellow;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    padding: 2rem 0;
-    font-weight: 700;
-  }
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.card {
+  background: yellow;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  padding: 2rem 0;
+  font-weight: 700;
+}
