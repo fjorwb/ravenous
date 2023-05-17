@@ -23,7 +23,7 @@ function SearchBar () {
           onChange={e => setSearch(e.target.value)}
           value={search}
         />
-        <button type='submit' onClick={handleSubmit}>
+        <button className={styles.btn} type='submit' onClick={handleSubmit}>
           Submit
         </button>
       </form>
