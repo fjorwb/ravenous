@@ -1,10 +1,8 @@
 .container {
-  /* width: 300px; */
   align-items: center;
   justify-content: center;
   height: auto;
   padding: 1rem;
-  /* border: 1px solid #ddd; */
   border-radius: 8px;
   box-shadow: 1px 1px 2px #ddd;
 }
@@ -15,6 +13,10 @@ img {
   object-fit: cover;
 }
 
+li {
+  list-style: none;
+}
+
 .title {
   font-size: .8rem;
   font-weight: 700;
@@ -22,12 +24,6 @@ img {
   margin: 0.25rem 0;
   text-align: left;
 }
-
-/* h3 {
-  font-size: .75rem;
-  font-weight: 600;
-  margin: 0.25rem 0;
-} */
 
 p {
   font-size: 0.75rem;

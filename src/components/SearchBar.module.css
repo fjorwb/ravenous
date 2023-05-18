@@ -5,8 +5,45 @@
     border-bottom: 1px solid #999;
 }
 
+.bars {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.SearchBarSortOptions ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.22rem;
+    color: #d90606;
+}
+
+.SearchBarSortOptions li {
+    cursor: pointer;
+    width: 4.33rem;
+    border-bottom: 1px solid #302b2b;
+    padding: 0 2.58rem 0.33rem 2.58rem;
+    line-height: 1.13;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.83rem;
+    transition: color 0.25s;
+    list-style: none;
+}
+
+.SearchBarSortOptions li:hover {
+    color: #650c0c;
+}
+
+.SearchBarSortOptions li.active,
+.SearchBarSortOptions li.active:hover {
+    border-bottom: 1px solid #f0c36c;
+    color: #f0c36c;
+}
+
 input {
-    width: 50%;
+    width: 30%;
     line-height: 1.5rem;
     border: 1px solid #333;
     border-radius: 5px;
