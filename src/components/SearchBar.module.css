@@ -1,6 +1,7 @@
 .searchBar {
     background: #211e1e;
     padding: 2rem 0;
+    border-radius: 5px;
 }
 
 .form {
