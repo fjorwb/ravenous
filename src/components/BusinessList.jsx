@@ -4,7 +4,6 @@ import styles from './BusinessList.module.css'
 import Business from './Business'
 
 function BusinessList ({ data }) {
-  console.log('businesslist', data)
   return (
     <div className={styles.container}>
       <ul>

@@ -10,9 +10,9 @@ const sortOptions = {
   'Most Reviewed': 'review_count'
 }
 
-function SearchBar ({ data, setData }) {
-  const [term, setTerm] = useState('')
-  const [location, setLocation] = useState('')
+function SearchBar ({ setSearch }) {
+  const [term, setTerm] = useState('restaurants')
+  const [location, setLocation] = useState('New York')
   const [sortBy, setSortBy] = useState('best_match')
 
   const getSortBy = sortByOption => {
@@ -26,17 +26,17 @@ function SearchBar ({ data, setData }) {
     setSortBy(sortByOption)
   }
 
-  if (sortBy === 'best_match') {
-    console.log('best match')
-  } else if (sortBy === 'rating') {
-    console.log('rating')
-    setData(data.sort((a, b) => b.rating - a.rating))
-    console.log(data)
-  } else if (sortBy === 'review_count') {
-    console.log('review count')
-    setData(data.sort((a, b) => b.review_count - a.review_count))
-    console.log(data)
-  }
+  // if (sortBy === 'best_match') {
+  //   console.log('best match')
+  // } else if (sortBy === 'rating') {
+  //   console.log('rating')
+  //   setData(data.sort((a, b) => b.rating - a.rating))
+  //   console.log(data)
+  // } else if (sortBy === 'review_count') {
+  //   console.log('review count')
+  //   setData(data.sort((a, b) => b.review_count - a.review_count))
+  //   console.log(data)
+  // }
 
   function handleTermChange (e) {
     setTerm(e.target.value)
@@ -48,8 +48,7 @@ function SearchBar ({ data, setData }) {
 
   function handleSubmit (e) {
     e.preventDefault()
-    console.log('Submitted', term, location)
-    setTerm('')
+    setSearch({ term, location, sortBy })
   }
 
   const rendersortOptions = () => {
