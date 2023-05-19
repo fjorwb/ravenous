@@ -5,6 +5,7 @@
   padding: 1rem;
   border-radius: 8px;
   box-shadow: 1px 1px 2px #ddd;
+  background: #fff;
 }
 
 img {
@@ -18,7 +19,7 @@ li {
 }
 
 .title {
-  font-size: .8rem;
+  font-size: .9rem;
   font-weight: 700;
   color: #555;
   margin: 0.25rem 0;
@@ -26,7 +27,7 @@ li {
 }
 
 p {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   margin: 0.15rem 0;
 }
 
@@ -48,5 +49,11 @@ p {
 .category {
   text-transform: uppercase;
   color: red;
+  font-weight: 700;
+}
+
+.address span {
+  font-size: 0.6rem;
+  color: #555;
   font-weight: 700;
 }

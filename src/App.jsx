@@ -24,7 +24,7 @@ function App () {
 
   return (
     <>
-      <h1>Ravenous</h1>
+      <h1 className='title'>Ravenous</h1>
       <div className='container'>
         <SearchBar setSearch={setSearch} />
         {loading && <Loader />}

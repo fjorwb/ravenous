@@ -69,7 +69,7 @@ function SearchBar ({ setSearch }) {
   }
 
   return (
-    <div>
+    <div className={styles.searchBar}>
       <div className={styles.SearchBarSortOptions}>
         <ul>{rendersortOptions()}</ul>
       </div>
